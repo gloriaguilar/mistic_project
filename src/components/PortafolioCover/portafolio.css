@@ -1,0 +1,72 @@
+.preview-portafolio-img{
+    filter: grayscale(.4);
+    object-fit: cover;
+    height: 100vh;
+}
+
+.portafolio-cover-container{
+    flex-direction: column;
+}
+.project-title{
+    text-align: center;
+    justify-content: center;
+    font-weight: 400;
+    font-size: 1.75rem;
+    line-height: 1.6;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.card-img-overlay{
+    top: 50%
+    
+}
+
+.text-small{
+    font-size: 1rem;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.container-quotes{
+    background-color: #ECECE7;
+    line-height: 1.6;
+}
+
+.container-quotes >h2{
+   line-height: 1.3;
+   font-size: 2rem;
+   font-family: 'EB Garamond', serif;
+   word-break: break-all;
+}
+
+.btn-style{
+    background-color: #14453d;
+    border-color: #14453d;
+    padding: 10px;
+    font-size: 18px;
+    font-family: 'Fira Sans', sans-serif;
+    border-width: 3px;
+    border-radius: 7px;
+}
+
+.card-container-portafolio:hover{
+    cursor: pointer;
+}
+
+.project-title:hover{
+color:  #aafff1;;
+}
+
+.btn-style:hover{
+    background-color: white;
+    color:#14453d;
+    border-color: #14453d;
+}
+@media screen and (min-width: 800px) {
+    .portafolio-cover-container{
+        flex-direction: row;
+    }
+
+    .card-container-portafolio{
+        width: 50%;
+    }
+}

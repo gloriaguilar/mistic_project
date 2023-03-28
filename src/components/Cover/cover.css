@@ -1,0 +1,89 @@
+p{
+    font-size: 20px;
+}
+
+.img-cover{
+    height: auto;
+    max-width: unset;
+    vertical-align: middle;
+    width: 100%;
+}
+
+.col{
+    padding: 0;
+}
+
+.row-cover-container{
+    flex-direction: column-reverse;
+}
+
+.text-container > h1{
+    font-size: 3.6rem;
+    font-weight: 800;
+    word-break: normal;
+}
+
+.text-container > p{
+    font-size: 1.5rem;
+    font-weight: 500;
+    font-style: italic;
+}
+.text-container{
+    padding: 15px;
+}
+.btn-container{
+    width: 50%
+}
+
+.btn-container > Button{
+    background-color: #14453d;
+    border-color: #14453d;
+    border-radius: 100px;
+    padding-top: 6px;
+    padding-right: 36px;
+    padding-bottom: 6px;
+    padding-left: 36px;
+    font-size: 1.125rem;
+}
+
+.cover-quote{
+    background-color: #14453d;
+    line-height: 1.6;
+    padding-top: 8vh;
+    padding-bottom: 8vh;
+}
+
+.cover-quote > h3{
+    line-height: 1.1;
+    background-color: #14453d;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    font-size: 2rem;
+}
+
+@media screen and (min-width: 600px) {
+
+    .row-cover-container{
+        flex-direction: row;
+        
+    }
+    .text-container {
+        padding: 80px;
+    }
+    .text-green{
+        align-self: flex-end
+    }
+    
+    .cover-container{
+        max-width: 100%;
+    }
+    .btn-container{
+        margin-top: 10%;
+    }
+
+    .btn-container > Button{
+       font-size: 25px;
+    }
+    
+}

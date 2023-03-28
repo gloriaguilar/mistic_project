@@ -1,0 +1,53 @@
+.bg-header{
+    background-color: transparent;
+}
+
+.text-header{
+    font-size: 20px;
+}
+
+.link-header:hover{
+    background-color: #14453d;
+    color: white;
+}
+
+.footer-container{
+    background-color: #fcf9f4;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+
+
+.footer-options > span{
+    font-size: 20px;
+    cursor: pointer;
+    font-weight: 500;
+}
+
+.footer-options > span:hover{
+    color: green;
+}
+
+
+
+
+@media screen and (min-width: 768px) {
+    
+    .text-header{
+        font-size: 25px;
+    }
+
+    .footer-container{
+        flex-direction: row;
+    }
+
+    .footer-options{
+ 
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+     }
+}
